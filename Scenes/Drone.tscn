@@ -1,0 +1,55 @@
+[gd_scene load_steps=8 format=3 uid="uid://lc6xh0vig7bw"]
+
+[ext_resource type="Texture2D" uid="uid://men0dpc2faho" path="res://Assets/Sprites/Enemy/Laser Drone/Idle.png" id="1_3gpqj"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_p6pso"]
+atlas = ExtResource("1_3gpqj")
+region = Rect2(0, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lfikv"]
+atlas = ExtResource("1_3gpqj")
+region = Rect2(48, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_61csa"]
+atlas = ExtResource("1_3gpqj")
+region = Rect2(96, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hdiq8"]
+atlas = ExtResource("1_3gpqj")
+region = Rect2(144, 0, 48, 48)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_53wo0"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_p6pso")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lfikv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_61csa")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hdiq8")
+}],
+"loop": true,
+"name": &"Flying",
+"speed": 6.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_fcdqm"]
+size = Vector2(19.0726, 18.7213)
+
+[node name="Drone" type="Area2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+scale = Vector2(3.6702, 2.75189)
+sprite_frames = SubResource("SpriteFrames_53wo0")
+animation = &"Flying"
+autoplay = "Flying"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="AnimatedSprite2D"]
+position = Vector2(-8.99136, 0.450775)
+shape = SubResource("RectangleShape2D_fcdqm")
