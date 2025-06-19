@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dpvniemkqbyo3"
-path="res://.godot/imported/Happy.png-34ea310c9dbebf8ed76315e2aba8cd7c.ctex"
+path="res://.godot/imported/Happy.png-03addd69a684af8e3074f9648b2aff7b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/PC/Woman/Happy.png"
-dest_files=["res://.godot/imported/Happy.png-34ea310c9dbebf8ed76315e2aba8cd7c.ctex"]
+source_file="res://Assets/Sprites/PC/Woman/Happy.png"
+dest_files=["res://.godot/imported/Happy.png-03addd69a684af8e3074f9648b2aff7b.ctex"]
 
 [params]
 

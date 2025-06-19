@@ -31,7 +31,7 @@ func _ready():
 	new_game()
 
 func init_bg(a, b, c, d):
-	var city = randi_range(1, 8)
+	var city = 1   #randi_range(1, 8)
 	var layer1sprite = Sprite2D.new()
 	layer1sprite.texture = load("res://city "+str(city)+"/"+str(a)+".png")
 	layer1sprite.position = Vector2(0, 50)
@@ -55,8 +55,7 @@ func init_bg(a, b, c, d):
 	layer4sprite.position = Vector2(0, 200)
 	$BG/ParallaxLayer4.add_child(layer4sprite)
 	$BG/ParallaxLayer4.motion_mirroring.x = 576 *$BG/ParallaxLayer4.scale.x
-	
-	$BG/Sprite2D.texture = load("res://city "+str(city)+"/1.png")
+
 
 func new_game():
 	#reset variables

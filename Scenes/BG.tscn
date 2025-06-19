@@ -1,14 +1,13 @@
 [gd_scene load_steps=2 format=3 uid="uid://b6hcjtghv8e0d"]
 
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_slac7"]
-load_path = "res://.godot/imported/1.png-b5b643774b13a1b041eaa2e017526233.ctex"
+[ext_resource type="Texture2D" uid="uid://by4gkwds53vsg" path="res://Assets/Backgrounds/free-city-backgrounds-pixel-art/city 6/1.png" id="1_l8st0"]
 
 [node name="BG" type="ParallaxBackground"]
 scale = Vector2(2, 2)
 transform = Transform2D(2, 0, 0, 2, 0, 0)
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-texture = SubResource("CompressedTexture2D_slac7")
+texture = ExtResource("1_l8st0")
 centered = false
 
 [node name="ParallaxLayer" type="ParallaxLayer" parent="."]

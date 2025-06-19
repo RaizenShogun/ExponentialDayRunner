@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://8qtr54gqgoae"
-path="res://.godot/imported/Attack.png-241103843415726c2ed20c2d07a9c7d5.ctex"
+path="res://.godot/imported/Attack.png-98636c6a44556a1775104ca888a8cbff.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/Enemy/Laser Drone/Attack.png"
-dest_files=["res://.godot/imported/Attack.png-241103843415726c2ed20c2d07a9c7d5.ctex"]
+source_file="res://Assets/Sprites/Enemy/Laser Drone/Attack.png"
+dest_files=["res://.godot/imported/Attack.png-98636c6a44556a1775104ca888a8cbff.ctex"]
 
 [params]
 

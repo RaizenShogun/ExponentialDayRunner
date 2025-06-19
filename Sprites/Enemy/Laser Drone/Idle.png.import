@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://men0dpc2faho"
-path="res://.godot/imported/Idle.png-909aa7182524337b0d1d9acee52fb76e.ctex"
+path="res://.godot/imported/Idle.png-1020fdd35334d9a80f42ca5987fa89d5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/Enemy/Laser Drone/Idle.png"
-dest_files=["res://.godot/imported/Idle.png-909aa7182524337b0d1d9acee52fb76e.ctex"]
+source_file="res://Assets/Sprites/Enemy/Laser Drone/Idle.png"
+dest_files=["res://.godot/imported/Idle.png-1020fdd35334d9a80f42ca5987fa89d5.ctex"]
 
 [params]
 

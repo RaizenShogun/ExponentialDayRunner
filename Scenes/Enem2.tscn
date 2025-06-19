@@ -1,11 +1,17 @@
-[gd_scene load_steps=2 format=3 uid="uid://eslnie1yexuy"]
+[gd_scene load_steps=3 format=3 uid="uid://eslnie1yexuy"]
 
-[ext_resource type="Texture2D" uid="uid://ojkybaxlk7xc" path="res://Assets/Placeholders/icon.svg" id="1_rkkj2"]
+[ext_resource type="Texture2D" uid="uid://b7kkhrntpg0ye" path="res://Assets/Sprites/Enemy/static idle.png" id="1_rkkj2"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_bfunr"]
+radius = 6.0
+height = 22.0
 
 [node name="Enem2" type="Area2D"]
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
+texture_filter = 1
 texture = ExtResource("1_rkkj2")
 
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
-polygon = PackedVector2Array(37, -49, -18, -49, -52, -32, -48, 34, -25, 48, 27, 49, 51, 34, 57, -3)
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-1, 5)
+shape = SubResource("CapsuleShape2D_bfunr")

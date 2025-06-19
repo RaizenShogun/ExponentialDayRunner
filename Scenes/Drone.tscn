@@ -35,7 +35,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"Flying",
-"speed": 6.0
+"speed": 8.0
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_fcdqm"]

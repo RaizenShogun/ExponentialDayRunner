@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://48warvbl016e"
-path="res://.godot/imported/Talk.png-ac74351e15e127d831ace5da48f3f89a.ctex"
+path="res://.godot/imported/Talk.png-65bbfd986e03c94d7217aa2b128e2fce.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/PC/Woman/Talk.png"
-dest_files=["res://.godot/imported/Talk.png-ac74351e15e127d831ace5da48f3f89a.ctex"]
+source_file="res://Assets/Sprites/PC/Woman/Talk.png"
+dest_files=["res://.godot/imported/Talk.png-65bbfd986e03c94d7217aa2b128e2fce.ctex"]
 
 [params]
 
