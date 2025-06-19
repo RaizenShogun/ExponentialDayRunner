@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dfdprx850xf83"
-path="res://.godot/imported/Sitdown.png-5e4713e0b3df2df2270bb92bd3525833.ctex"
+path="res://.godot/imported/Sitdown.png-dc956dd186785ad4186c7ee0ff19b787.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Sprites/PC/Woman/Sitdown.png"
-dest_files=["res://.godot/imported/Sitdown.png-5e4713e0b3df2df2270bb92bd3525833.ctex"]
+source_file="res://Sprites/PC/Woman/Sitdown.png"
+dest_files=["res://.godot/imported/Sitdown.png-dc956dd186785ad4186c7ee0ff19b787.ctex"]
 
 [params]
 

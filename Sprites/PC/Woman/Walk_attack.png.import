@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://jrrvt0h4rid"
-path="res://.godot/imported/Walk_attack.png-374431918f7c233260673e895dd982bb.ctex"
+path="res://.godot/imported/Walk_attack.png-086df2e40464dcfd8d13d66a73894d06.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Sprites/PC/Woman/Walk_attack.png"
-dest_files=["res://.godot/imported/Walk_attack.png-374431918f7c233260673e895dd982bb.ctex"]
+source_file="res://Sprites/PC/Woman/Walk_attack.png"
+dest_files=["res://.godot/imported/Walk_attack.png-086df2e40464dcfd8d13d66a73894d06.ctex"]
 
 [params]
 
