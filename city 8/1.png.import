@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ru7bhbo037jj"
-path="res://.godot/imported/1.png-9df92f4733fa56075e06351aba9dfb79.ctex"
+uid="uid://dtc3b1lxu2aqd"
+path="res://.godot/imported/1.png-33a774e1dd056ececa6d564f3732525f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Backgrounds/free-city-backgrounds-pixel-art/city 8/1.png"
-dest_files=["res://.godot/imported/1.png-9df92f4733fa56075e06351aba9dfb79.ctex"]
+source_file="res://city 8/1.png"
+dest_files=["res://.godot/imported/1.png-33a774e1dd056ececa6d564f3732525f.ctex"]
 
 [params]
 

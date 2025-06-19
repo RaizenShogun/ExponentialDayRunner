@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://fiulxfp8quxp"
-path="res://.godot/imported/9.png-df1bcbd348e6a51d40e6ad03e1ad118d.ctex"
+path="res://.godot/imported/9.png-9682fce40cd33de92a6cb0932b5a6e3f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Backgrounds/free-city-backgrounds-pixel-art/city 4/9.png"
-dest_files=["res://.godot/imported/9.png-df1bcbd348e6a51d40e6ad03e1ad118d.ctex"]
+source_file="res://city 4/9.png"
+dest_files=["res://.godot/imported/9.png-9682fce40cd33de92a6cb0932b5a6e3f.ctex"]
 
 [params]
 

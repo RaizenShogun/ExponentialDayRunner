@@ -30,8 +30,37 @@ func _ready():
 	ground_height = $Ground.get_node("Sprite2D").texture.get_height()
 	new_game()
 
+func init_bg(a, b, c, d):
+	var city = randi_range(1, 8)
+	var layer1sprite = Sprite2D.new()
+	layer1sprite.texture = load("res://city "+str(city)+"/"+str(a)+".png")
+	layer1sprite.position = Vector2(0, 50)
+	$BG/ParallaxLayer.add_child(layer1sprite)
+	$BG/ParallaxLayer.motion_mirroring.x = 576 *$BG/ParallaxLayer.scale.x
+	
+	var layer2sprite = Sprite2D.new()
+	layer2sprite.texture = load("res://city "+str(city)+"/"+str(b)+".png")
+	layer2sprite.position = Vector2(0, 100)
+	$BG/ParallaxLayer2.add_child(layer2sprite)
+	$BG/ParallaxLayer2.motion_mirroring.x = 576 *$BG/ParallaxLayer2.scale.x
+	
+	var layer3sprite = Sprite2D.new()
+	layer3sprite.texture = load("res://city "+str(city)+"/"+str(c)+".png")
+	layer3sprite.position = Vector2(0, 150)
+	$BG/ParallaxLayer3.add_child(layer3sprite)
+	$BG/ParallaxLayer3.motion_mirroring.x = 576 *$BG/ParallaxLayer3.scale.x
+	
+	var layer4sprite = Sprite2D.new()
+	layer4sprite.texture = load("res://city "+str(city)+"/"+str(d)+".png")
+	layer4sprite.position = Vector2(0, 200)
+	$BG/ParallaxLayer4.add_child(layer4sprite)
+	$BG/ParallaxLayer4.motion_mirroring.x = 576 *$BG/ParallaxLayer4.scale.x
+	
+	$BG/Sprite2D.texture = load("res://city "+str(city)+"/1.png")
+
 func new_game():
 	#reset variables
+	init_bg(5, 4, 3, 2)
 	score = 0
 	show_score()
 	game_running = false

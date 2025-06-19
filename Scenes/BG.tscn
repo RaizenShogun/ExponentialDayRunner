@@ -1,47 +1,28 @@
-[gd_scene load_steps=6 format=3 uid="uid://b6hcjtghv8e0d"]
+[gd_scene load_steps=2 format=3 uid="uid://b6hcjtghv8e0d"]
 
-[ext_resource type="Texture2D" uid="uid://by4gkwds53vsg" path="res://Assets/Backgrounds/free-city-backgrounds-pixel-art/city 6/1.png" id="1_l8st0"]
-[ext_resource type="Texture2D" uid="uid://dvxotqutj5h1u" path="res://Assets/Backgrounds/free-city-backgrounds-pixel-art/city 7/2.png" id="2_vgbdo"]
-[ext_resource type="Texture2D" uid="uid://dpn1vm7526v12" path="res://Assets/Backgrounds/free-city-backgrounds-pixel-art/city 7/3.png" id="3_1crij"]
-[ext_resource type="Texture2D" uid="uid://c7kyw4e3octy" path="res://Assets/Backgrounds/free-city-backgrounds-pixel-art/city 7/4.png" id="4_vny58"]
-[ext_resource type="Texture2D" uid="uid://c8egfqndsancb" path="res://Assets/Backgrounds/free-city-backgrounds-pixel-art/city 7/5.png" id="5_ur525"]
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_slac7"]
+load_path = "res://.godot/imported/1.png-b5b643774b13a1b041eaa2e017526233.ctex"
 
 [node name="BG" type="ParallaxBackground"]
 scale = Vector2(2, 2)
 transform = Transform2D(2, 0, 0, 2, 0, 0)
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-texture = ExtResource("1_l8st0")
+texture = SubResource("CompressedTexture2D_slac7")
 centered = false
 
 [node name="ParallaxLayer" type="ParallaxLayer" parent="."]
 motion_scale = Vector2(0.1, 1)
 motion_mirroring = Vector2(576, 0)
 
-[node name="Sprite2D" type="Sprite2D" parent="ParallaxLayer"]
-texture = ExtResource("2_vgbdo")
-centered = false
-
 [node name="ParallaxLayer2" type="ParallaxLayer" parent="."]
 motion_scale = Vector2(0.2, 1)
 motion_mirroring = Vector2(576, 0)
-
-[node name="Sprite2D" type="Sprite2D" parent="ParallaxLayer2"]
-texture = ExtResource("3_1crij")
-centered = false
 
 [node name="ParallaxLayer3" type="ParallaxLayer" parent="."]
 motion_scale = Vector2(0.3, 1)
 motion_mirroring = Vector2(576, 0)
 
-[node name="Sprite2D" type="Sprite2D" parent="ParallaxLayer3"]
-texture = ExtResource("4_vny58")
-centered = false
-
 [node name="ParallaxLayer4" type="ParallaxLayer" parent="."]
 motion_scale = Vector2(0.4, 1)
 motion_mirroring = Vector2(576, 0)
-
-[node name="Sprite2D" type="Sprite2D" parent="ParallaxLayer4"]
-texture = ExtResource("5_ur525")
-centered = false

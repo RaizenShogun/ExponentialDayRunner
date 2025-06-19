@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://c6uv8liv5cqc3"]
 
-[ext_resource type="FontFile" uid="uid://uwxxlllyv8t8" path="res://Assets/Fonts/Retro Gaming.ttf" id="1_k5de2"]
+[ext_resource type="FontFile" uid="uid://uwxxlllyv8t8" path="res://Fonts/Retro Gaming.ttf" id="1_k5de2"]
 
 [node name="HUD" type="CanvasLayer"]
 
@@ -25,7 +25,11 @@ grow_horizontal = 2
 grow_vertical = 2
 theme_override_fonts/font = ExtResource("1_k5de2")
 theme_override_font_sizes/font_size = 40
-text = "Press SPACE to play!"
+text = "Press SPACE to play!
+
+Lead Designer- Aniruddh Suresh
+Technical Head- Rizwan Niju
+Additional Backgrounds- Sreshta E."
 horizontal_alignment = 1
 vertical_alignment = 1
 
